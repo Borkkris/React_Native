@@ -20,6 +20,7 @@ const Home = () => {
             // unique identifier for each item in our list
             keyExtractor={(item ) => item.id}
             showsVerticalScrollIndicator={false}
+            // always appears on top of the page
             ListHeaderComponent={<HomeHeader/>}
           />
         </View>
