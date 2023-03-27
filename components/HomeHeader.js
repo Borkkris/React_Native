@@ -21,7 +21,7 @@ const HomeHeader = ({ onSearch }) => {
         <View style={{ width: 45, height: 45}}>
           {/* the little image in the middle with the avatar in it */}
             <Image 
-              source={assets.person01}
+              source={assets.person03}
               reziseMode="contain"
               style={{ width: "100%", height: "100%"}}
             />
@@ -35,7 +35,7 @@ const HomeHeader = ({ onSearch }) => {
       {/* the name underneath the logo */}
       <View style={{ marginVertical: SIZES.font * 1.5 }}>
           <Text style={{ fontSize:SIZES.small, color: COLORS.white}}>
-            Hello, <Text style={{ fontWeight: "bold" }}>Magdalena Kieron</Text>
+            Hello, <Text style={{ fontWeight: "bold" }}>'Username'</Text>
           </Text>
           <Text style={{ fontFamily:FONTS.bold, fontSize:SIZES.large, color: COLORS.white, marginTop: SIZES.base / 2}}>
             Let's find a masterpiece

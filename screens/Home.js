@@ -8,9 +8,7 @@ import { NFTCard, HomeHeader, FocusedStatusBar } from '../components';
 const Home = () => {
   return (
     <SafeAreaView style={{ flex: 1 }}>
-
       <FocusedStatusBar background={COLORS.primary} />
-
       <View style={{ flex: 1 }}>
         {/* This View will contain and render the NFT List */}
         <View style={{ zIndex: 0 }}>
@@ -34,7 +32,6 @@ const Home = () => {
         }}>
           <View style={{ height: 300, backgroundColor: COLORS.primary}} />
           <View style={{ flex: 1, backgroundColor: COLORS.white }} />
-
         </View>
       </View>
     </SafeAreaView>
