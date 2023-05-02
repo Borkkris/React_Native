@@ -60,6 +60,7 @@ const [readMore, setReadMore] = useState(false)
                 setText(data.description)
                 setReadMore(true)
               } else {
+                // shortens the description back into 100 characters
                 setText(data.description.slice(0, 100))
                 setReadMore(false)
               }

@@ -29,7 +29,7 @@ const NFTCard = ({ data }) => {
         }} />
 
         {/* passing the props imgUrl, right and top to the Button component */}
-        <CircleButton imgUrl={assets.heart} right={10} top={10} />
+        <CircleButton imgUrl={assets.heart}  />
       </View>
 
       <SubInfo />
